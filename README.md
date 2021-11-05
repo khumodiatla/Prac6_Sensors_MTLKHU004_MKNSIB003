@@ -1,5 +1,7 @@
 ## A Simple Server with Python Flask
 
-This is a simple skeleton Flask server project that works on any of the devices supported by [balena][balena-link].
+The Pi1 will read temperature and LDR sensed light level
 
-This project simply serves up a description of the group members and the name of the tutorial in the on port `:80` of the balena device(RaspberryPi Zer0).
+On startup the server Pi2 needs to create a sensorlog file to save logged sensor readings
+
+Contains the Dockerfile and source respectively for Pi1 collecting sensor data and transmitting it to Pi2
